@@ -1,0 +1,6 @@
+
+==========
+Category: new
+Title: testing
+Content: This note is to test whether the code is working
+==========

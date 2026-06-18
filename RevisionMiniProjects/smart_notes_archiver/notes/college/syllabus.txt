@@ -1,0 +1,5 @@
+Subjects are
+1)DBMS
+2)Discrete Mathematics
+3)Computer Organization and Microprocessor
+4)Internet Of Things(IOT)

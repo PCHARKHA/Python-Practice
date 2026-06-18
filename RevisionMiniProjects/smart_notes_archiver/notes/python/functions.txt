@@ -1,0 +1,3 @@
+Functions in python are block of reusable code that perform a particular task.
+Syntax:
+def function_name():
