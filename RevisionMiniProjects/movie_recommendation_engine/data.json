@@ -1,0 +1,54 @@
+{
+    "Sci-Fi": [
+        {
+            "title": "Interstellar",
+            "rating": 9.2,
+            "year": 2014,
+            "mood": "motivational"
+        },
+        {
+            "title": "Arrival",
+            "rating": 8.5,
+            "year": 2016,
+            "mood": "dark"
+        }
+    ],
+    "Comedy": [
+        {
+            "title": "3 Idiots",
+            "rating": 9.0,
+            "year": 2009,
+            "mood": "happy"
+        }
+    ],
+
+    "Action": [
+        {
+            "title": "Mad Max: Fury Road",
+            "rating": 8.1,
+            "year": 2015,
+            "mood": "intense"
+        },
+        {
+            "title": "John Wick",
+            "rating": 7.4,
+            "year": 2014,
+            "mood": "dark"
+        }
+    ],
+
+    "Drama": [
+        {
+            "title": "The Pursuit of Happyness",
+            "rating": 8.0,
+            "year": 2006,
+            "mood": "motivational"
+        },
+        {
+            "title": "Forrest Gump",
+            "rating": 8.8,
+            "year": 1994,
+            "mood": "happy"
+        }
+    ]
+}

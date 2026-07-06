@@ -76,9 +76,8 @@ def delete_habits(habits):
 
     else:
         del habits[habit_name]
-
+        
         save_habits(habits)
-
         print(f"{habit_name} deleted successfully")
         view_habits(habits)
 
@@ -177,3 +176,4 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
+
