@@ -4,7 +4,7 @@ This repository contains my Python learning journey through concept revision and
 
 ## 📂 Repository Structure
 
-### 1. Revision - Python
+### 1. PythonFundamentals
 A collection of programs and exercises covering core Python concepts.
 
 **Topics include:**
@@ -21,7 +21,7 @@ A collection of programs and exercises covering core Python concepts.
 - and more..
 ---
 
-### 2. Revision Mini Projects
+### 2. Python Mini Projects
 A collection of command-line projects built to apply Python concepts in real-world scenarios.
 
 #### Projects
@@ -55,8 +55,5 @@ Each project has its own README explaining its features, concepts used, and proj
 
 I'm continuing to strengthen my Python fundamentals while learning:
  -Java + Data Structures & Algorithms
-- Django
-- FastAPI
-- Java + Data Structures & Algorithms
 - Django
 - FastAPI
