@@ -1,12 +1,15 @@
 import json
+import os
 
 from analytics.average_calc import calculate_average
 from analytics.topper_finder import find_overall_topper, find_subject_toppers
 from analytics.attendance_report import generate_attendance_report
 
-
 def load_data(filename="data.json"):
-    with open(filename, "r") as file:
+    base_dir = os.path.dirname(__file__)
+    filepath = os.path.join(base_dir, filename)
+
+    with open(filepath, "r") as file:
         return json.load(file)
 
 
