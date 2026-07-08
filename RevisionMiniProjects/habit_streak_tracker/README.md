@@ -1,4 +1,4 @@
-# Habit Streak Tracker
+# 🔥 Habit Streak Tracker
 
 A command-line Habit Tracking application built using Python. The program allows users to create habits, track daily progress, maintain streaks, generate simple reports, and calculate a discipline score using JSON-based data storage.
 
@@ -16,20 +16,44 @@ A command-line Habit Tracking application built using Python. The program allows
 ## Technologies Used
 
 * Python 3
-* JSON File Handling
-* OS Module
+* JSON (for data storage)
+* `os` module
 * Functions and Modular Programming
 
-## Concepts Demonstrated
+## Python Concepts Practiced
 
-* Reading and writing JSON files
-* Data persistence
-* Dictionary operations
-* Functions and code organization
-* Loops and conditional statements
-* File path handling with `os.path`
-* User input validation
-* Basic data analysis and reporting
+* Reading and Writing JSON Files (`json.load()`, `json.dump()`)
+* Data Persistence Without a Database
+* Dictionaries and Nested Dictionaries
+* Functions and Code Organization
+* Loops and Conditional Statements
+* File Path Handling with `os.path`
+* User Input Validation
+* Basic Data Analysis and Reporting
+* Menu-Driven Program Flow
+
+## Project Structure
+
+```text
+habit_streak_tracker/
+│
+├── app.py     # Menu and core program logic
+├── data.json   # Persistent habit and streak storage
+└── README.md
+```
+
+## Sample Data Format
+
+```json
+{
+    "Reading": {
+        "streak": 5
+    },
+    "Exercise": {
+        "streak": 8
+    }
+}
+```
 
 ## How to Run
 
@@ -53,27 +77,6 @@ python main.py
 7. Exit
 ```
 
-## Sample Data Format
+## Learning Outcomes
 
-```json
-{
-    "Reading": {
-        "streak": 5
-    },
-    "Exercise": {
-        "streak": 8
-    }
-}
-```
-
-## Key Learnings
-
-* Using `json.load()` to read structured data from a JSON file.
-* Using `json.dump()` to save Python dictionaries to a JSON file.
-* Managing persistent application data without a database.
-* Working with nested dictionaries for storing habit information and streak counts.
-* Updating and tracking streak-based progress over time.
-
-## Purpose
-
-This project was built to practice Python fundamentals, particularly JSON handling, file operations, dictionaries, functions, and menu-driven application development through a real-world habit tracking system.
+This project was built to practice Python fundamentals through a real-world habit tracking system. It strengthened my understanding of reading and writing structured data with `json.load()` and `json.dump()`, managing persistent application data without a database, working with nested dictionaries to store habit information and streak counts, and building a complete menu-driven CLI application with input validation and basic reporting.
